@@ -1,0 +1,27 @@
+<body>
+	<script type="text/javascript" src="https://blog-imgs-135.fc2.com/w/a/n/waniwani169/calc.js"></script>
+  <html>
+    <TITLE>TEST</TITLE>
+    <div>
+      PID(性格値):
+      <input id="PID"></input>
+      <input type="radio" name="PID_r" value="F" checked="checked">16進</input>  
+    </div>
+    <div>
+      SID(表ID):
+      <input id="SID"></input>
+      <input type="radio" id="SID_r" name="SID_r" value="F" checked="checked">16進</input>  
+      <input type="radio" name="SID_r" value="D" >10進</input>  
+    </div>
+    <div>
+      TID(裏ID):
+      <input id="TID"></input>
+      <input type="radio" id="TID_r" name="TID_r" value="F" checked="checked">16進</input>  
+      <input type="radio" name="TID_r" value="D">10進</input>  
+    </div>
+    <BR><BR>
+    <button class="Calc" onclick="Calc();">CALC!</button>
+    <BR>
+    <div id="RET"></div>
+  </html>
+</body>
